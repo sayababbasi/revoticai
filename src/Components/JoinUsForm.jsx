@@ -259,30 +259,44 @@ import "./JoinUsForm.scss";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
-
 const openings = [
   {
     id: 1,
     type: "Internship",
-    title: "AI Developer Internship",
-    technology: "Artificial Intelligence",
-    deadline: "2025-09-01",
+    title: "AI/ML & Generative AI Intern",
+    technology: "AI, ML, GenAI, RAG, Agentic AI",
+    deadline: "2025-09-15",
   },
   {
     id: 2,
-    type: "Job",
-    title: "Full Stack Developer",
-    technology: "MERN Stack",
-    deadline: "2025-08-15",
+    type: "Internship",
+    title: "Full Stack Developer Intern",
+    technology: "React.js, Node.js, Express.js, MongoDB, Flask, FastAPI",
+    deadline: "2025-09-15",
   },
   {
     id: 3,
     type: "Internship",
-    title: "GenAI Research Intern",
-    technology: "GenAI",
-    deadline: "2025-08-25",
+    title: "Frontend Developer Intern",
+    technology: "HTML, CSS, JavaScript, React.js, Next.js",
+    deadline: "2025-09-15",
+  },
+  {
+    id: 4,
+    type: "Internship",
+    title: "Backend Developer Intern",
+    technology: "Node.js, Express.js, Flask, FastAPI, MongoDB",
+    deadline: "2025-09-15",
+  },
+  {
+    id: 5,
+    type: "Internship",
+    title: "Game Developer Intern",
+    technology: "Unreal Engine, C++, Blueprints",
+    deadline: "2025-09-15",
   },
 ];
+
 
 const JoinUsForm = () => {
   const [step, setStep] = useState(1);
@@ -462,6 +476,8 @@ const JoinUsForm = () => {
                       <option value="ML">ML</option>
                       <option value="GenAI">GenAI</option>
                       <option value="Full Stack">Full Stack</option>
+                      <option value="Backend Developer">Backend Developer</option>
+                      <option value="Frontend Developer">Frontend Developer</option>
                     </select>
                   </div>
                   <div className="form-group">
