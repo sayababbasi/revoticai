@@ -10,6 +10,8 @@ import Protfolio from "../Pages/Protfolio/Protfolio";
 import ProtfolioDetails from "../Pages/ProtfolioDetails/ProtfolioDetails";
 import JoinUsForm from "../Components/JoinUsForm";
 
+import PrivacyPolicy from "../Pages/PrivacyPolicy";
+import TermsAndConditions from "../Pages/TermsAndConditions";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +53,14 @@ export const router = createBrowserRouter([
       {
         path: "/join-us",
         element: <JoinUsForm />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "/terms-and-conditions",
+        element: <TermsAndConditions />,
       }
 
     ],

@@ -43,7 +43,7 @@ const Footer = () => {
                 <p>
                   Hello, I’m Sayab Gulfaraz, Founder of RevoticAI. Crafting intelligent AI-driven solutions for the future.
                 </p>
-                <a href="mailto:contact@revoticai.com">contact@revoticai.com</a>
+                <a style={{textTransform:"none", textDecoration:"none"}} href="mailto:contact@revoticai.com">contact@revoticai.com</a>
               </div>
             </div>
             <div className="col-lg-6">
@@ -75,10 +75,10 @@ const Footer = () => {
             </p>
             <ul className="terms">
               <li>
-                <a href="#0"> Terms & Condition </a>
+                <a href="/terms-and-conditions"> Terms & Condition </a>
               </li>
               <li>
-                <a href="#0"> Privacy Policy </a>
+                 <a href="/privacy-policy">Privacy Policy</a>
               </li>
               <li>
                 <Link to="/join-us">Job/Internship</Link>
